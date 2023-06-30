@@ -14,16 +14,13 @@
 .r_h33{
     height: 220px;
 }
-.r_h33_c{
-    background-image: url("../img/hand1.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position:center bottom;
+
+
         
-}
+
 .r_btn1{
     width: 45px;
-    height:30px;
+    height:35px;
     border-style: outset;
     border-color: #010a0267;
     box-shadow: 2px 2px 0px 0px  rgb(26, 110, 89);
@@ -31,7 +28,10 @@
     background-color: #9fc463
     
 }
-
+.r_active{
+    transform: translate(2px,2px);
+    box-shadow: 1px 1px 0px 0px  rgb(26, 110, 89);
+}
 
     
 
